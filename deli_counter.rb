@@ -1,5 +1,5 @@
-def katz_deli(array)
-  katz_deli = []
+def line()
+  "The line is currently empty."
   end
 
   
