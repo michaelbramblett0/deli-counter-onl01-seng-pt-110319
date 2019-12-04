@@ -8,6 +8,7 @@ else
   katz_deli.each_with_index do |line, i|
   result << "#{i}. #{line}" 
 end
+puts result
 end
   end
 
