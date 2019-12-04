@@ -21,6 +21,6 @@ end
     if katz_deli.empty?
       puts "There is nobody waiting to be served!"
     else
-      
+      now_serving.each_with_index
   end
 end
