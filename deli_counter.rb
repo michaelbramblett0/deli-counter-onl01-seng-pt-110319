@@ -5,7 +5,7 @@ def line(katz_deli)
   puts "The line is currently empty."
 else 
   result = "The line is currently: "
-  katz_deli.each_with_index(1) do |line, i|
+  katz_deli.each_with_index do |line, i|
   result << "#{i}. #{line}" 
 end
 end
